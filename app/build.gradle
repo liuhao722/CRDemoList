@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+//        applicationId rootProject.ext.applicationId
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "myself"]    // 默认渠道
+    }
+    dataBinding {
+        enabled true
+    }
+    buildTypes {
+        release {
+            buildConfigField "int", "SERVER_HOST", "1"
+            minifyEnabled true//true：启用混淆,false:不启用
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //是否支持zipAlign压缩
+            zipAlignEnabled true
+            //  是否支持本地化整理:对应testbuild_001→Pseudo Locales Enaled
+            pseudoLocalesEnabled true
+        }
+        debug {
+            buildConfigField "int", "SERVER_HOST", "2"
+            minifyEnabled false//true：启用混淆,false:不启用
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':module_common')
+}
