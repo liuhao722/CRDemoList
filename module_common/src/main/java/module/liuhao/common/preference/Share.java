@@ -17,16 +17,19 @@ import module.liuhao.common.preference.utils.ShareUtils;
 public class Share {
     private static final String SP_NAME = "common.share.reference";
     public static ShareUtils sp = new ShareUtils();
-    public static String imei = "";
+    public static String IMEI = "";
 
     /**
      * 初始化, 在Application中调用
      */
     public static void init(Context context) {
         sp.init(context, SP_NAME);
-        Share.imei = DevicesUtils.getIMEI(context);
+        Share.IMEI = DevicesUtils.getIMEI(context);
     }
 
+    /**
+     * 清楚缓存内的数据
+     */
     public static void clear() {
         Share.token.set("");
         Share.userId.set(0L);
@@ -34,13 +37,13 @@ public class Share {
         Share.point.set(0);
     }
 
-    public static ShareLong userId = getLong("userId");                               //  钢镚
+    public static ShareInt point = getInt("point");                                            //   点对点
 
-    public static ShareInt point = getInt("point", -1);        //  1:已登录;
+    public static ShareLong userId = getLong("userId");                                        //   用户ID
 
-    public static ShareBoolean isRunning = getBoolean("isRunning");                      //  是否正在运行
+    public static ShareString token = getString("token");                                      //   token
 
-    public static ShareString token = getString("token");                             //
+    public static ShareBoolean isRunning = getBoolean("isRunning");                            //   是否正在运行
 
 
     private static ShareLong getLong(String key) {
@@ -49,6 +52,10 @@ public class Share {
 
     private static ShareLong getLong(String key, long defaultValue) {
         return new ShareLong(sp, key, defaultValue);
+    }
+
+    private static ShareInt getInt(String key) {
+        return getInt(key, 0);
     }
 
     private static ShareInt getInt(String key, int defaultValue) {
