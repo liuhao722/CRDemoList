@@ -4,6 +4,8 @@ import android.app.Application;
 
 import com.liuhao.blockbuster.BuildConfig;
 
+import module.liuhao.common.preference.Share;
+
 /**
  * Author:  LiuHao
  * Email:   114650501@qq.com
@@ -18,7 +20,7 @@ public class BaseApp extends Application {
     int ENV_PRODUCT = 1;                                                                            //  正式环境
     int ENV_TEST = 2;                                                                               //  测试环境
 
-    public static synchronized BaseApp getInstance() {
+    public static synchronized BaseApp ins() {
         return mInstance;
     }
 
@@ -27,6 +29,7 @@ public class BaseApp extends Application {
         super.onCreate();
         mInstance = this;
         initModel();                            //  初始化当前的模式 是debug还是release
+        Share.init(this);
     }
 
     /**
