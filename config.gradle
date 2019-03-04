@@ -1,0 +1,10 @@
+ext {
+    applicationId = "com.liuhao.cr"
+    versionCode = 1000000
+    versionName = "1.0.0.0"
+    minSdkVersion = 16
+    targetSdkVersion = 26
+    compileSdkVersion = 28
+    buildToolsVersion = "28.0.3"
+    supportVersion = "27.1.1"
+}

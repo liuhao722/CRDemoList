@@ -32,6 +32,4 @@ dependencies {
     //  GSON和fastJson
     api 'com.google.code.gson:gson:2.8.1'
     api 'com.alibaba:fastjson:1.2.21'
-    //  视频播放器
-    api 'com.shuyu:GSYVideoPlayer:6.0.3'
 }

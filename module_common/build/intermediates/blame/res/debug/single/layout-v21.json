@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3deb560db834932ec6672b83132699cc/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3deb560db834932ec6672b83132699cc/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3deb560db834932ec6672b83132699cc/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3deb560db834932ec6672b83132699cc/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
