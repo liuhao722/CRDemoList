@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--例如定义-->
+    <declare-styleable name="MyCustomView">
+        <!--路径-->
+        <attr name="src" format="reference" />
+        <!--大小-->
+        <attr name="textSize" format="dimension" />
+        <!--颜色-->
+        <attr name="textColor" format="color" />
+        <!--显示文字与否-->
+        <attr name="showText" format="boolean" />
+        <!--摆放的位置  分为 下 和右下-->
+        <attr name="gravity" format="enum">
+            <enum name="top" value="0" />
+            <enum name="lef" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+
+        <attr name="count" format="integer" />
+        <attr name="date" format="string" />
+    </declare-styleable>
+</resources>

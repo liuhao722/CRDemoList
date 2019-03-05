@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:liuhao="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.liuhao.cr.widget.SimpleViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        liuhao:gravity="bottom"
+        liuhao:showText="false"
+        liuhao:src="@drawable/ic_launcher_background"
+        liuhao:textColor="@color/colorPrimary"
+        liuhao:textSize="15sp">
+
+    </com.liuhao.cr.widget.SimpleViewGroup>
+</RelativeLayout>
