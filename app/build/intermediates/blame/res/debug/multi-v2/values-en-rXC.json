@@ -4,7 +4,7 @@
             "outputFile": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a8709e910d3fd5be8f7697b9845f1349/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/def4c2793617edff3cfa3e5fb6b3d79a/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: "androidx.navigation.safeargs"
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -40,4 +41,13 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':module_common')
+
+    //添加依赖
+    def nav_version = "1.0.0-alpha05"
+    implementation "android.arch.navigation:navigation-fragment:$nav_version"
+    implementation "android.arch.navigation:navigation-ui:$nav_version"
+// optional - Test helpers
+    androidTestImplementation "android.arch.navigation:navigation-testing:$nav_version"
+
+    //类型安全方式传递数据
 }

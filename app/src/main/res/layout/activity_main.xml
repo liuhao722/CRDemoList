@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <LinearLayout
+    <RelativeLayout
+        android:id="@+id/rl_root"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/tv_content"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!" />
-    </LinearLayout>
+        <!--android:name 是 NavHostFragment，它实现了 NavHost，这是一个用于放置管理 destination 的空视图。
+        app:navGraph 用于将这个 NavHostFragment 和 nav_graph.xml 关联起来。
+        app:defaultNavHost 表示 NavHostFragment 可以拦截处理返回键。
+        -->
+
+        <fragment
+            android:id="@+id/nav_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/navigation_root" />
+
+    </RelativeLayout>
 </layout>

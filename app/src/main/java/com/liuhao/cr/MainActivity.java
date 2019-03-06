@@ -14,13 +14,13 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
 
     @Override
     protected void initListener() {
-        setClickView(binding.tvContent);
+        setClickView(binding.rlRoot);
     }
 
     @Override
     protected void normalClick(View view) {
         switch (view.getId()) {
-            case R.id.tv_content:
+            case R.id.rl_root:
                 break;
         }
     }

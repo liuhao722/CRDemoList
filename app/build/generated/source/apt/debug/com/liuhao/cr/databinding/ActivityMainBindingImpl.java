@@ -16,8 +16,6 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
         sViewsWithIds = null;
     }
     // views
-    @NonNull
-    private final android.widget.LinearLayout mboundView0;
     // variables
     // values
     // listeners
@@ -28,9 +26,9 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     }
     private ActivityMainBindingImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (android.widget.RelativeLayout) bindings[0]
             );
-        this.mboundView0 = (android.widget.LinearLayout) bindings[0];
-        this.mboundView0.setTag(null);
+        this.rlRoot.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();

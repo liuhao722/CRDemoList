@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_root"
+    app:startDestination="@id/firstFragment">
+    <!-- startDestination 指定这个 Fragment 是 start destination-->
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.liuhao.cr.fragment.FirstFragment"
+        android:label="第一个fragment"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+
+        <argument
+            android:name="sex"
+            android:defaultValue="男"
+            app:argType="string"
+            app:nullable="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.liuhao.cr.fragment.SecondFragment"
+        android:label="第二个fragment"
+        tools:layout="@layout/fragment_second">
+        <argument
+            android:name="name"
+            android:defaultValue="林肯"
+            app:argType="string"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_secondFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+
+    </fragment>
+
+</navigation>
