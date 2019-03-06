@@ -69,7 +69,7 @@ public class SimpleView extends View {
 
         setMeasuredDimension(realWidthSize, realHeightSize);            //  设置测量完成的尺寸
 
-        //  根据mode 和实际测量的尺寸获取模式尺寸
+        //  根据mode 和实际尺寸获取对应的模式值
         int widthMeasureSpecSize = MeasureSpec.makeMeasureSpec(realWidthSize, mode);
         int heightMeasureSpecSize = MeasureSpec.makeMeasureSpec(realHeightSize, mode);
 
