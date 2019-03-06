@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.liuhao.cr.widget.SimpleViewGroup
+    <com.liuhao.cr.widget.SimpleView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         liuhao:gravity="bottom"
@@ -13,5 +13,5 @@
         liuhao:textColor="@color/colorPrimary"
         liuhao:textSize="15sp">
 
-    </com.liuhao.cr.widget.SimpleViewGroup>
+    </com.liuhao.cr.widget.SimpleView>
 </RelativeLayout>

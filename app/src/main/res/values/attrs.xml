@@ -2,6 +2,8 @@
 <resources>
     <!--例如定义-->
     <declare-styleable name="MyCustomView">
+        <attr name="count" format="integer" />
+        <attr name="date" format="string" />
         <!--路径-->
         <attr name="src" format="reference" />
         <!--大小-->
@@ -17,8 +19,5 @@
             <enum name="right" value="2" />
             <enum name="bottom" value="3" />
         </attr>
-
-        <attr name="count" format="integer" />
-        <attr name="date" format="string" />
     </declare-styleable>
 </resources>
