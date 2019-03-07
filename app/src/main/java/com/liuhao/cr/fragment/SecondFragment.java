@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import com.liuhao.cr.R;
 
-import androidx.navigation.fragment.NavHostFragment;
+import androidx.navigation.Navigation;
 
 /**
  * Author:  LiuHao
@@ -30,10 +30,12 @@ public class SecondFragment extends Fragment {
         btn = viewRoot.findViewById(R.id.btn_second);
         btn.setText(btn.getText().toString() + ":--->" + name);
         viewRoot.findViewById(R.id.btn_second).setOnClickListener(
-                v -> NavHostFragment.findNavController(SecondFragment.this)
-                        .navigate(R.id.action_secondFragment_to_firstFragment)
+                v -> {
+                    Navigation.findNavController(v).navigate(R.id.action_secondFragment_to_firstActivity);
+//                    NavHostFragment.findNavController(SecondFragment.this)
+//                            .navigate(R.id.action_secondFragment_to_firstFragment);
+                }
         );
         return viewRoot;
     }
-
 }

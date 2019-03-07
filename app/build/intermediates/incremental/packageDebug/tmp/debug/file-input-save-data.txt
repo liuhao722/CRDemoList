@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Mar 06 17:58:12 CST 2019
+#Thu Mar 07 11:33:42 CST 2019
 0.baseType=DIRECTORY
 0.base=/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex

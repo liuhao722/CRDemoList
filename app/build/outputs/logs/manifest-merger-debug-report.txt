@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-23:12
 MERGED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.databinding:adapters:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/af8a60b9973fc5202ce76de2249f7132/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.databinding:library:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/d4ccc23c23c20bf00bfec3c6a05d9522/AndroidManifest.xml:17:1-24:12
@@ -27,25 +27,25 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2ddd15925556b8fccb5584a1168edb6f/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f8199f215155fb024b8f591875026dca/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/42027ee5c3fc3bc7f465bcaa8e452ebf/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:3:5-28
 		INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
-		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
-		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:5:5-20:19
+ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:5:5-21:19
 	android:supportsRtl
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
@@ -74,6 +74,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.liuhao.cr.activity.FirstActivity
+ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:20:9-60
+	android:name
+		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:20:19-57
 uses-sdk
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml

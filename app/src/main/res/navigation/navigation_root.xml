@@ -5,6 +5,7 @@
     android:id="@+id/navigation_root"
     app:startDestination="@id/firstFragment">
     <!-- startDestination 指定这个 Fragment 是 start destination-->
+    <!-- destination 指定这个 目的的fragment-->
     <fragment
         android:id="@+id/firstFragment"
         android:name="com.liuhao.cr.fragment.FirstFragment"
@@ -14,26 +15,45 @@
             android:id="@+id/action_firstFragment_to_secondFragment"
             app:destination="@id/secondFragment" />
 
+        <action
+            android:id="@+id/action_firstFragment_to_firstActivity"
+            app:destination="@id/firstActivity" />
+
         <argument
             android:name="sex"
             android:defaultValue="男"
             app:argType="string"
             app:nullable="false" />
+
+
     </fragment>
+
     <fragment
         android:id="@+id/secondFragment"
         android:name="com.liuhao.cr.fragment.SecondFragment"
         android:label="第二个fragment"
         tools:layout="@layout/fragment_second">
+
+        <deepLink app:uri="app://open.my.second" />
+
         <argument
             android:name="name"
             android:defaultValue="林肯"
             app:argType="string"
             app:nullable="false" />
+
         <action
             android:id="@+id/action_secondFragment_to_firstFragment"
             app:destination="@id/firstFragment" />
 
+        <action
+            android:id="@+id/action_secondFragment_to_firstActivity"
+            app:destination="@id/firstActivity" />
     </fragment>
 
+    <activity
+        android:id="@+id/firstActivity"
+        android:name="com.liuhao.cr.activity.FirstActivity"
+        android:label="activity_first"
+        tools:layout="@layout/activity_first"></activity>
 </navigation>

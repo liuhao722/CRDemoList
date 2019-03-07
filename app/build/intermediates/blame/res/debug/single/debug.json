@@ -64,12 +64,12 @@
         "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/def4c2793617edff3cfa3e5fb6b3d79a/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/layout_abc_action_menu_layout.xml.flat",
-        "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/def4c2793617edff3cfa3e5fb6b3d79a/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/def4c2793617edff3cfa3e5fb6b3d79a/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/layout_abc_action_menu_layout.xml.flat",
+        "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/def4c2793617edff3cfa3e5fb6b3d79a/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/drawable_design_password_eye.xml.flat",
@@ -302,6 +302,10 @@
     {
         "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
         "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/def4c2793617edff3cfa3e5fb6b3d79a/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/layout_activity_first.xml.flat",
+        "source": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/res/layout/activity_first.xml"
     },
     {
         "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -1266,10 +1270,6 @@
     {
         "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
         "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/def4c2793617edff3cfa3e5fb6b3d79a/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/layout_fragment_third.xml.flat",
-        "source": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/res/layout/fragment_third.xml"
     },
     {
         "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
