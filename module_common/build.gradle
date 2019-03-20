@@ -32,4 +32,7 @@ dependencies {
     //  GSON和fastJson
     api 'com.google.code.gson:gson:2.8.1'
     api 'com.alibaba:fastjson:1.2.21'
+
+    api 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21'
+    api 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-21'//没有使用特殊Header，可以不加这行
 }

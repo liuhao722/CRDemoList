@@ -2,5 +2,9 @@
     {
         "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_test_refresh_list.xml",
+        "source": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/res/layout/activity_test_refresh_list.xml"
     }
 ]

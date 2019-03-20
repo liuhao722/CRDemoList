@@ -20,6 +20,8 @@ MERGED from [com.android.support:transition:27.1.1] /Users/qiucheng/.gradle/cach
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/cb8953f548fcecf398517b86320c4adc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3deb560db834932ec6672b83132699cc/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f06198bcdd011d1229b5106a04739706/AndroidManifest.xml:17:1-22:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-21.aar/6b91e400b000008c3961f834e5be1231/AndroidManifest.xml:2:1-17:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-21.aar/abde7cf241ec6b537f482860423bd08b/AndroidManifest.xml:2:1-17:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2927b9dc6082215e8c7b903e9ab8abc0/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/410f9ac599fc0cbfdfaae3f082912be3/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d82710be1483dd2ac7faaeb45e3a1f20/AndroidManifest.xml:17:1-22:12
@@ -42,6 +44,10 @@ INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/ma
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-21.aar/6b91e400b000008c3961f834e5be1231/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-21.aar/6b91e400b000008c3961f834e5be1231/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-21.aar/abde7cf241ec6b537f482860423bd08b/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-21.aar/abde7cf241ec6b537f482860423bd08b/AndroidManifest.xml:11:5-15:19
 	android:supportsRtl
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
@@ -55,11 +61,11 @@ ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/
 	android:theme
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:12:9-40
 	android:name
-		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:6:9-50
-activity#com.liuhao.cr.MainActivity
+		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:6:9-58
+activity#com.liuhao.cr.TestRefreshActivity
 ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:13:19-60
+		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:13:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
@@ -106,6 +112,10 @@ MERGED from [com.android.support:support-compat:27.1.1] /Users/qiucheng/.gradle/
 MERGED from [com.android.support:support-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3deb560db834932ec6672b83132699cc/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f06198bcdd011d1229b5106a04739706/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f06198bcdd011d1229b5106a04739706/AndroidManifest.xml:20:5-44
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-21.aar/6b91e400b000008c3961f834e5be1231/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-21.aar/6b91e400b000008c3961f834e5be1231/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-21.aar/abde7cf241ec6b537f482860423bd08b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-21.aar/abde7cf241ec6b537f482860423bd08b/AndroidManifest.xml:7:5-9:41
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2927b9dc6082215e8c7b903e9ab8abc0/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2927b9dc6082215e8c7b903e9ab8abc0/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/410f9ac599fc0cbfdfaae3f082912be3/AndroidManifest.xml:20:5-44
