@@ -7,6 +7,7 @@ INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/ma
 MERGED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.databinding:adapters:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/501f9303e6231afefebb17f374430879/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.databinding:library:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/b9353ac4c261a782009b3def1092b808/AndroidManifest.xml:17:1-24:12
+MERGED from [com.liaoinstan.springview:library:1.5.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/cb80272be44ce1e821d6b1d0d14b45f7/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:design:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/6dd9b7ed218572218ca7712d7b34f280/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6146bfc84c82d01d58a40d02a12c6bad/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/928baa64afe0e3ed79ddb7832b8f9f94/AndroidManifest.xml:17:1-22:12
@@ -44,6 +45,8 @@ INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/ma
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.liaoinstan.springview:library:1.5.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/cb80272be44ce1e821d6b1d0d14b45f7/AndroidManifest.xml:11:5-15:19
+MERGED from [com.liaoinstan.springview:library:1.5.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/cb80272be44ce1e821d6b1d0d14b45f7/AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-21.aar/6b91e400b000008c3961f834e5be1231/AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-21.aar/6b91e400b000008c3961f834e5be1231/AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-21] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-21.aar/abde7cf241ec6b537f482860423bd08b/AndroidManifest.xml:11:5-15:19
@@ -62,10 +65,10 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-21] /Users/q
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:12:9-40
 	android:name
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:6:9-58
-activity#com.liuhao.cr.TestRefreshActivity
+activity#com.liuhao.cr.TestRefreshActivity1
 ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:13:19-54
+		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:13:19-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
@@ -86,6 +89,8 @@ MERGED from [com.android.databinding:adapters:3.2.1] /Users/qiucheng/.gradle/cac
 MERGED from [com.android.databinding:adapters:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/501f9303e6231afefebb17f374430879/AndroidManifest.xml:22:5-44
 MERGED from [com.android.databinding:library:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/b9353ac4c261a782009b3def1092b808/AndroidManifest.xml:22:5-44
 MERGED from [com.android.databinding:library:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/b9353ac4c261a782009b3def1092b808/AndroidManifest.xml:22:5-44
+MERGED from [com.liaoinstan.springview:library:1.5.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/cb80272be44ce1e821d6b1d0d14b45f7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.liaoinstan.springview:library:1.5.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/cb80272be44ce1e821d6b1d0d14b45f7/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/6dd9b7ed218572218ca7712d7b34f280/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/6dd9b7ed218572218ca7712d7b34f280/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6146bfc84c82d01d58a40d02a12c6bad/AndroidManifest.xml:20:5-44

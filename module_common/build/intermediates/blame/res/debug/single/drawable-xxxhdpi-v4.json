@@ -40,6 +40,10 @@
         "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a8709e910d3fd5be8f7697b9845f1349/res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/progress.png",
+        "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/cb80272be44ce1e821d6b1d0d14b45f7/res/drawable-xxxhdpi-v4/progress.png"
+    },
+    {
         "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
         "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a8709e910d3fd5be8f7697b9845f1349/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },

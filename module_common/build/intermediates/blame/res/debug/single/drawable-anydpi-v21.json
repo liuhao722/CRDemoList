@@ -6,5 +6,9 @@
     {
         "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
         "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/6dd9b7ed218572218ca7712d7b34f280/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/res/merged/debug/drawable-anydpi-v21/progress.xml",
+        "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/cb80272be44ce1e821d6b1d0d14b45f7/res/drawable-anydpi-v21/progress.xml"
     }
 ]

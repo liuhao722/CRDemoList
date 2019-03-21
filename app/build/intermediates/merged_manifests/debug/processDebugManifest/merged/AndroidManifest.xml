@@ -20,7 +20,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.liuhao.cr.TestRefreshActivity" >
+        <activity android:name="com.liuhao.cr.TestRefreshActivity1" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

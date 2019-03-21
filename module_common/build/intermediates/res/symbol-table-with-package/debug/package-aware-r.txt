@@ -190,9 +190,12 @@ attr fontProviderPackage
 attr fontProviderQuery
 attr fontStyle
 attr fontWeight
+attr footer
 attr foregroundInsidePadding
 attr gapBetweenBars
+attr give
 attr goIcon
+attr header
 attr headerLayout
 attr height
 attr hideOnContentScroll
@@ -452,6 +455,7 @@ attr tooltipText
 attr track
 attr trackTint
 attr trackTintMode
+attr type
 attr useCompatPadding
 attr viewInflaterClass
 attr voiceIcon
@@ -807,6 +811,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable arrow
 drawable avd_hide_password
 drawable avd_show_password
 drawable design_bottom_navigation_item_background
@@ -828,6 +833,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable progress
+drawable progress_small
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id FixedBehind
@@ -860,6 +867,7 @@ id alertTitle
 id async
 id auto
 id blocking
+id both
 id bottom
 id buttonPanel
 id cancel_action
@@ -874,11 +882,19 @@ id customPanel
 id dataBinding
 id decor_content_parent
 id default_activity_button
+id default_footer_progressbar
+id default_footer_title
+id default_header_arrow
+id default_header_progressbar
+id default_header_text
+id default_header_time
+id default_header_title
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id drag
 id edit_query
 id end
 id end_padder
@@ -886,6 +902,7 @@ id expand_activities_button
 id expanded_menu
 id fill
 id fixed
+id follow
 id forever
 id ghost_view
 id home
@@ -914,6 +931,7 @@ id notification_main_column
 id notification_main_column_container
 id onAttachStateChangeListener
 id onDateChanged
+id overlap
 id parallax
 id parentPanel
 id parent_matrix
@@ -1020,6 +1038,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout default_footer
+layout default_header
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1551,6 +1571,7 @@ styleable SmartRefreshLayout srlAccentColor srlDisableContentWhenLoading srlDisa
 styleable SmartRefreshLayout_Layout layout_srlBackgroundColor layout_srlSpinnerStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_dropDownWidth android_entries android_popupBackground android_prompt popupTheme
+styleable SpringView footer give header type
 styleable StoreHouseHeader shhDropHeight shhEnableFadeAnimation shhLineWidth shhText
 styleable SwitchCompat android_textOff android_textOn android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable TabItem android_icon android_layout android_text

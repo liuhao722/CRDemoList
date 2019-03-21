@@ -1,27 +1,16 @@
 package com.liuhao.cr;
 
-import android.support.annotation.StringRes;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
 
 import com.liuhao.cr.base.BaseActivity;
-import com.liuhao.cr.base.adapter.BaseRecyclerAdapter;
-import com.liuhao.cr.base.adapter.SmartViewHolder;
 import com.liuhao.cr.databinding.ActivityTestRefreshListBinding;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import static android.support.v7.widget.DividerItemDecoration.VERTICAL;
+import com.liuhao.cr.helper.AdapterHelper;
 
 /**
  * Author:  LiuHao
@@ -148,40 +137,9 @@ public class TestRefreshActivity extends BaseActivity<ActivityTestRefreshListBin
         Log.e(TAG, "onItemClick:\t" + position + ":\t" + id);
     }
 
-    private enum Item {
-        A1(R.string.item_style_content_translation_off),
-        B2(R.string.item_style_content_translation_on),
-        C3(R.string.item_style_theme_orange_abstract),
-        D4(R.string.item_style_theme_red_abstract),
-        E5(R.string.item_style_theme_green_abstract),
-        F6(R.string.item_style_theme_blue_abstract),
-        G7(R.string.item_style_content_translation_off),
-        H8(R.string.item_style_content_translation_on),
-        I9(R.string.item_style_theme_orange_abstract),
-        J10(R.string.item_style_theme_red_abstract),
-        K11(R.string.item_style_theme_green_abstract),
-        L12(R.string.item_style_theme_blue_abstract),;
-        public int nameId;
-
-        Item(@StringRes int nameId) {
-            this.nameId = nameId;
-        }
-    }
 
     @Override
     protected void initView() {
-        binding.rvList.setLayoutManager(new LinearLayoutManager(this));
-        binding.rvList.addItemDecoration(new DividerItemDecoration(this, VERTICAL));
-        binding.rvList.setItemAnimator(new DefaultItemAnimator());
-        List<Item> items = new ArrayList<>();
-        items.addAll(Arrays.asList(Item.values()));
-        binding.rvList.setAdapter(new BaseRecyclerAdapter<Item>(items, R.layout.rv_list_item, this) {
-            @Override
-            protected void onBindViewHolder(SmartViewHolder holder, Item model, int position) {
-                holder.text(R.id.tv_title, model.name());
-//                holder.text(R.id.tv_title, model.nameId);
-                holder.textColorId(R.id.tv_title, R.color.colorTextAssistant);
-            }
-        });
+        AdapterHelper.initView(this, binding.rvList);
     }
 }

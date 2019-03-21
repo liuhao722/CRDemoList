@@ -426,6 +426,16 @@
     <declare-styleable name="SmartRefreshLayout_Layout"><attr name="layout_srlSpinnerStyle"/><attr format="color" name="layout_srlBackgroundColor"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
+    <declare-styleable name="SpringView"><attr name="type">
+            <enum name="overlap" value="0"/>
+            <enum name="follow" value="1"/>
+            <enum name="drag" value="2"/>
+        </attr><attr name="give">
+            <enum name="both" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="none" value="3"/>
+        </attr><attr format="reference" name="header"/><attr format="reference" name="footer"/></declare-styleable>
     <declare-styleable name="StoreHouseHeader"><attr format="string" name="shhText"/><attr format="dimension" name="shhLineWidth"/><attr format="dimension" name="shhDropHeight"/><attr format="boolean" name="shhEnableFadeAnimation"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
             

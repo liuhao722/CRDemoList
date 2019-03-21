@@ -7,6 +7,7 @@ import android.util.SparseArray;
 import android.util.SparseIntArray;
 import android.view.View;
 import com.liuhao.cr.databinding.ActivityMainBindingImpl;
+import com.liuhao.cr.databinding.ActivityTestRefreshList1BindingImpl;
 import com.liuhao.cr.databinding.ActivityTestRefreshListBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -23,11 +24,14 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYTESTREFRESHLIST = 2;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
+  private static final int LAYOUT_ACTIVITYTESTREFRESHLIST1 = 3;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.liuhao.cr.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.liuhao.cr.R.layout.activity_test_refresh_list, LAYOUT_ACTIVITYTESTREFRESHLIST);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.liuhao.cr.R.layout.activity_test_refresh_list_1, LAYOUT_ACTIVITYTESTREFRESHLIST1);
   }
 
   @Override
@@ -50,6 +54,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityTestRefreshListBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_test_refresh_list is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ACTIVITYTESTREFRESHLIST1: {
+          if ("layout/activity_test_refresh_list_1_0".equals(tag)) {
+            return new ActivityTestRefreshList1BindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_test_refresh_list_1 is invalid. Received: " + tag);
         }
       }
     }
@@ -105,11 +115,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
 
     static {
       sKeys.put("layout/activity_main_0", com.liuhao.cr.R.layout.activity_main);
       sKeys.put("layout/activity_test_refresh_list_0", com.liuhao.cr.R.layout.activity_test_refresh_list);
+      sKeys.put("layout/activity_test_refresh_list_1_0", com.liuhao.cr.R.layout.activity_test_refresh_list_1);
     }
   }
 }
