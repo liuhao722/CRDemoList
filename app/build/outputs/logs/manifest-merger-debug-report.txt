@@ -55,7 +55,7 @@ ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/
 	android:theme
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:12:9-40
 	android:name
-		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:6:9-50
+		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:6:9-58
 activity#com.liuhao.cr.MainActivity
 ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name

@@ -8,11 +8,16 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 public abstract class ActivityMainBinding extends ViewDataBinding {
+  @NonNull
+  public final TextView tvContent;
+
   protected ActivityMainBinding(DataBindingComponent _bindingComponent, View _root,
-      int _localFieldCount) {
+      int _localFieldCount, TextView tvContent) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.tvContent = tvContent;
   }
 
   @NonNull

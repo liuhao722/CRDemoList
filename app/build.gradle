@@ -14,6 +14,25 @@ android {
     dataBinding {
         enabled true
     }
+
+    signingConfigs {
+        release {
+            storeFile file('./key/finup.keystore')
+            keyAlias 'finup'
+            keyPassword 'finupplatform'
+            storePassword 'finupplatform'
+//            v2SigningEnabled false
+        }
+        debug {
+            storeFile file('./key/debug.keystore')
+            keyAlias 'debugkeystore'
+            keyPassword 'debugkeystore'
+            storePassword 'debugkeystore'
+//            v2SigningEnabled false
+        }
+    }
+
+
     buildTypes {
         release {
             buildConfigField "int", "SERVER_HOST", "1"
