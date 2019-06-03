@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'maven'
+apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -19,6 +20,20 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    //  忽略错误信息：moudel的build.gradle
+    lintOptions {
+        abortOnError false
+    }
+    //  https://bintray.com/liukun722914/IteratorPlugin
+    publish {
+        userOrg = 'liukun722914'            //  bintray注册的用户名
+        groupId = 'com.liuhao'              //  compile引用时的第1部分groupId
+        artifactId = 'IteratorPlugin'       //  compile引用时的第2部分项目名
+        publishVersion = '1.0.0'            //  compile引用时的第3部分版本号
+        desc = 'This is a Iterator library '
+        website = 'https://bintray.com/liukun722914/IteratorPlugin'
+//        website = 'https://github.com/liuhao722/CRDemoList'
     }
 }
 

@@ -1,11 +1,15 @@
 package com.lib.testjava;
 
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.ConcurrentLinkedDeque;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class MyClass {
     public static void main(String[] args) {
@@ -14,18 +18,21 @@ public class MyClass {
 
     static HashMap map = new HashMap<>();
 
-    static ArrayList<String> list = new ArrayList<>();
+    static ArrayList list = new ArrayList<>();
     static ConcurrentLinkedDeque<String> concurrentLinkedDeque = new ConcurrentLinkedDeque();
 
     public static void test() {
-        testFor();
+//        testFor();
         testForeach();
-        testConcurrentLinkedDequeForeach();
+//        testConcurrentLinkedDequeForeach();
+//        testStream();
+//        testIterator();
     }
 
     public static void testFor() {
         initList();
         System.out.println("使用for循环遍历List");
+
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
             if (list.get(i).equals("B")) {
@@ -40,12 +47,59 @@ public class MyClass {
     public static void testForeach() {
         initList();
         System.out.println("使用foreach遍历List");
-        for (String item : list) {
-            System.out.println(item);
+        for (Object item : list) {
+//            System.out.println(item);
             if (item.equals("B")) {
                 list.remove(item);  //  错误的移除方式
-                list.add(item);     //  错误的添加方式
+//                list.add(item);     //  错误的添加方式
             }
+        }
+//        PrintStream out = System.out;
+//        Consumer<String> fun2 = out::println;
+//        fun2.accept("hello beijing");
+    }
+
+
+    public static void testStream() {
+        initList();
+        Stream<String> stream = list.stream().filter(new Predicate<String>() {
+            @Override
+            public boolean test(String s) {
+                return s.equals("B");
+            }
+        });
+
+        List<String> filterList = stream.collect(Collectors.<String>toList());
+
+        for (int i = 0; i < filterList.size(); i++) {
+            System.out.println(filterList.get(i));
+        }
+    }
+
+    public static void testIterator() {
+        initList();
+        Iterator<String> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            String item = iterator.next();
+            if (item.equals("B")) {
+                iterator.remove();
+            }
+//            System.out.println(item);
+        }
+        print(list);
+        print(list.iterator());
+    }
+
+    public static void print(List<String> list) {
+        for (String item : list) {
+            System.out.println(item);
+        }
+    }
+
+    public static void print(Iterator<String> iterator) {
+        while (iterator.hasNext()) {
+            String item = iterator.next();
+            System.out.println(item);
         }
     }
 

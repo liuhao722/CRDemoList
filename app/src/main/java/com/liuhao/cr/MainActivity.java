@@ -8,7 +8,12 @@ import com.liuhao.cr.base.BaseActivity;
 import com.liuhao.cr.databinding.ActivityMainBinding;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class MainActivity extends BaseActivity<ActivityMainBinding> {
     private ScrollView scrollView;
@@ -37,6 +42,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
     public static void test() {
         testFor();
         testForeach();
+        testMap();
     }
 
     /**
@@ -64,12 +70,26 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
         }
     }
 
+    public static void testMap(){
+        Map map = new HashMap();
+        Set keySet = map.keySet();
+        Iterator keySetIterator = keySet.iterator();
+
+        Collection values = map.values();
+        Iterator valuesIterator = values.iterator();
+
+        Set entrySet = map.entrySet();
+        Iterator entrySetIterator = entrySet.iterator();
+    }
+
     /////////////////////////////////////////////
 
     public static void initList() {
+        list.clear();
         list.add("A");
         list.add("B");
         list.add("C");
         list.add("D");
     }
+
 }
