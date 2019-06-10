@@ -7,6 +7,9 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.jakewharton.scalpel.ScalpelFrameLayout;
+import com.liuhao.cr.R;
+
 import module.liuhao.common.helper.FastClickHelper;
 
 /**
@@ -23,6 +26,7 @@ public class BaseActivity<X extends ViewDataBinding> extends AppCompatActivity i
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         beforeBinding();
         super.onCreate(savedInstanceState);
+
         binding = DataBindingUtil.setContentView(this, setLayoutId());
         afterBinding();
         initView();

@@ -3,10 +3,10 @@ package com.liuhao.cr;
 import android.support.v4.app.Fragment;
 import android.view.View;
 
+import androidx.navigation.fragment.NavHostFragment;
+
 import com.liuhao.cr.base.BaseActivity;
 import com.liuhao.cr.databinding.ActivityMainBinding;
-
-import androidx.navigation.fragment.NavHostFragment;
 
 public class MainActivity extends BaseActivity<ActivityMainBinding> {
 
@@ -18,6 +18,14 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
     @Override
     protected void initListener() {
         setClickView(binding.rlRoot);
+
+        // 3D旋转效果
+        binding.scalpel.setLayerInteractionEnabled(true);               //  配置是否开启3d效果
+        binding.scalpel.setDrawViews(true);                             //  配置是否绘制真实的View, 如果为false则仅绘制布局线框图
+        binding.scalpel.setDrawIds(true);                               //  配置是否在界面上显示控件的Id.
+        binding.scalpel.setChromeColor(R.color.colorAccent);            //
+        binding.scalpel.setChromeShadowColor(R.color.colorPrimary);     //  配置线框图颜色
+
     }
 
     @Override
