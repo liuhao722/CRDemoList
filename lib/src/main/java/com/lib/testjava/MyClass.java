@@ -2,6 +2,7 @@ package com.lib.testjava;
 
 import java.io.PrintStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -47,13 +48,49 @@ public class MyClass {
     public static void testForeach() {
         initList();
         System.out.println("使用foreach遍历List");
-        for (Object item : list) {
-//            System.out.println(item);
-            if (item.equals("B")) {
-                list.remove(item);  //  错误的移除方式
-//                list.add(item);     //  错误的添加方式
-            }
+
+        Iterator<String> iterator1 = list.iterator();
+
+//        for (Object item : list) {
+//           String next =  iterator1.next();
+//            iterator1.remove();
+//            System.out.println(next);
+////            System.out.println(item);
+////            if (item.equals("B")) {
+////                list.remove(item);
+////            }
+//        }
+
+
+        Iterator<String> iterator2 = list.iterator();
+        Iterator iterator3 = list.iterator();
+        while (iterator3.hasNext()) {
+            iterator3.next();
+            String next = iterator2.next();
+            iterator2.remove();
+            System.out.println(next);
         }
+
+
+//        System.out.println(list.toString() + "\t" + list.size());
+//        while (iterator.hasNext()) {
+//
+//            System.out.println(next);
+////            String str = (String) localIterator.next();
+////            if (str.equals("B")) {
+////                list.remove(str);
+////            }
+//        }
+
+
+//
+//        for (Object item : list) {
+////            System.out.println(item);
+//            if (item.equals("B")) {
+//                list.remove(item);  //  错误的移除方式
+////                list.add(item);     //  错误的添加方式
+//            }
+//        }
 //        PrintStream out = System.out;
 //        Consumer<String> fun2 = out::println;
 //        fun2.accept("hello beijing");
