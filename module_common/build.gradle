@@ -32,4 +32,5 @@ dependencies {
     //  GSON和fastJson
     api 'com.google.code.gson:gson:2.8.1'
     api 'com.alibaba:fastjson:1.2.21'
+    api 'com.android.support.constraint:constraint-layout:2.0.0-alpha1'
 }
