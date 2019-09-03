@@ -4,7 +4,7 @@
             "outputFile": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3deb560db834932ec6672b83132699cc/res/values-v16/values-v16.xml",
+                    "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/efb6ae9c5f31c9996ddacb6a505910c1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a8709e910d3fd5be8f7697b9845f1349/res/values-v16/values-v16.xml",
+                    "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1fbd6722d99ae6aa6315b8e8996a3e09/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

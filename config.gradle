@@ -7,4 +7,12 @@ ext {
     compileSdkVersion = 28
     buildToolsVersion = "28.0.3"
     supportVersion = "27.1.1"
+
+    appCompatVersion = '1.1.0-alpha03'
+    constraintLayoutVersion = '2.0.0-beta1'
+    glideVersion = '4.8.0'
+    kotlinVersion = '1.3.11'
+    lifeCycleVersion = '2.0.0'
+    lottieVersion = '2.5.1'
+    materialVersion = '1.1.0-alpha05'
 }

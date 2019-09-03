@@ -27,6 +27,7 @@ android {
     }
     //  https://bintray.com/liukun722914/IteratorPlugin
     publish {
+        repoName = 'IteratorPlugin'         //  仓库名
         userOrg = 'liukun722914'            //  bintray注册的用户名
         groupId = 'com.liuhao'              //  compile引用时的第1部分groupId
         artifactId = 'IteratorPlugin'       //  compile引用时的第2部分项目名
