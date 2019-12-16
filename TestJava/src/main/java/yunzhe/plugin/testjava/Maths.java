@@ -14,7 +14,7 @@ public class Maths {
         System.out.println();
         System.out.println();
 
-        AddHelper.start(160);
+//        AddHelper.start(160);
 
     }
 }

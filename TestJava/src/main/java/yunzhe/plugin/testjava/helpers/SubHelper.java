@@ -12,7 +12,7 @@ public class SubHelper {
     private static int count = 0;
     public static void start(int count) {
 
-        System.out.println("-----------------------------------------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------------------------------------------------");
         for (int i = 0; i < count; i++) {
             random(MAX_VALUE);
         }
@@ -23,13 +23,20 @@ public class SubHelper {
      */
     public static void random(int max) {
         count++;
-        int maxRandomValue = random.nextInt(max)+1;
-        int minRandomValue = random.nextInt(maxRandomValue)+1;
-        if (count % 4 == 0){
-            System.out.println(maxRandomValue+" - "+minRandomValue+" = ");
-            System.out.println("-----------------------------------------------------------------------------------------------");
+        int maxRandomValue = random.nextInt(max) + 1;
+        int minRandomValue = random.nextInt(maxRandomValue) + 1;
+        int temp ;
+        if (maxRandomValue < minRandomValue){
+            temp = maxRandomValue;
+            maxRandomValue = minRandomValue;
+            minRandomValue = temp;
+        }
+
+        if (count % 5 == 0){
+            System.out.println("  "+maxRandomValue+" - "+minRandomValue+" =");
+            System.out.println("------------------------------------------------------------------------------------------------------");
         }else {
-            System.out.print("\t"+maxRandomValue+" - "+minRandomValue+" = \t\t\t");
+            System.out.print("  "+maxRandomValue+" - "+minRandomValue+" =            ");
         }
     }
 }

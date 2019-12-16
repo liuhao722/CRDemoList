@@ -11,7 +11,7 @@ public class AddHelper {
     private static int count = 0;
     public static void start(int count) {
 
-        System.out.println("-----------------------------------------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------------------------------------------------");
         for (int i = 0; i < count; i++) {
             random(MAX_VALUE);
         }
@@ -37,11 +37,12 @@ public class AddHelper {
             second = second--;
         }
 
-        if (count % 4 == 0){
-            System.out.println(first + " + " + second + " = ");
-            System.out.println("-----------------------------------------------------------------------------------------------");
+
+        if (count % 5 == 0){
+            System.out.println("  "+first+" - "+second+" =");
+            System.out.println("------------------------------------------------------------------------------------------------------");
         }else {
-            System.out.print("\t"+first+" + "+second+" = \t\t\t");
+            System.out.print("  "+first+" - "+second+" =            ");
         }
     }
 }
