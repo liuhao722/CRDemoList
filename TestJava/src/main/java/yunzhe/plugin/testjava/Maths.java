@@ -5,16 +5,12 @@ import yunzhe.plugin.testjava.helpers.SubHelper;
 
 public class Maths {
 
-
+public static final int NUM = 2000;
     public static void main(String[] args) {
 
-        SubHelper.start(160);
+        SubHelper.start(NUM);
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
-
-//        AddHelper.start(160);
+//        AddHelper.start(NUM);
 
     }
 }
