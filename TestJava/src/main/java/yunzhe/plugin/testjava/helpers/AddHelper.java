@@ -39,10 +39,10 @@ public class AddHelper {
 
 
         if (count % 5 == 0){
-            System.out.println("  "+first+" - "+second+" =");
+            System.out.println("  "+first+" + "+second+" =");
             System.out.println("------------------------------------------------------------------------------------------------------");
         }else {
-            System.out.print("  "+first+" - "+second+" =            ");
+            System.out.print("  "+first+" + "+second+" =            ");
         }
     }
 }
