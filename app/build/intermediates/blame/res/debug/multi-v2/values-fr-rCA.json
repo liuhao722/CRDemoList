@@ -4,7 +4,7 @@
             "outputFile": "/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/efb6ae9c5f31c9996ddacb6a505910c1/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/Users/qiucheng/.gradle/caches/transforms-2/files-2.1/f16c2f119dd2cfb6c3267acf4ed3987b/support-compat-27.1.1/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1fbd6722d99ae6aa6315b8e8996a3e09/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/Users/qiucheng/.gradle/caches/transforms-2/files-2.1/1c8f2cfde8a8dce9b314936cfe19876c/appcompat-v7-27.1.1/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

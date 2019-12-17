@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
+//apply plugin: 'maven'
 apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -23,18 +23,24 @@ android {
     }
     //  忽略错误信息：moudel的build.gradle
     lintOptions {
+        checkReleaseBuilds false
         abortOnError false
     }
-    //  https://bintray.com/liukun722914/IteratorPlugin
-    publish {
-        repoName = 'IteratorPlugin'         //  仓库名
-        userOrg = 'liukun722914'            //  bintray注册的用户名
-        groupId = 'com.liuhao'              //  compile引用时的第1部分groupId
-        artifactId = 'IteratorPlugin'       //  compile引用时的第2部分项目名
-        publishVersion = '1.0.0'            //  compile引用时的第3部分版本号
-        desc = 'This is a Iterator library '
-        website = 'https://bintray.com/liukun722914/IteratorPlugin'
-//        website = 'https://github.com/liuhao722/CRDemoList'
+
+    //  加上这些  如果你开源库中有中文注释在moudel的build.gradle加入格式
+    tasks.withType(Javadoc) {
+        options {
+            encoding "UTF-8"
+            charSet 'UTF-8'
+            links "http://docs.oracle.com/javase/7/docs/api"
+        }
+        options.addStringOption('Xdoclint:none', '-quiet')
+        options.addStringOption('encoding', 'UTF-8')
+    }
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
     }
 }
 
@@ -48,4 +54,16 @@ dependencies {
     //  GSON和fastJson
     api 'com.google.code.gson:gson:2.8.1'
     api 'com.alibaba:fastjson:1.2.21'
+}
+
+//  https://bintray.com/liukun722914/IteratorPlugin
+publish {
+    repoName = 'IteratorPlugin'         //  仓库名
+    userOrg = 'liukun722914'            //  bintray注册的用户名
+    groupId = 'com.liuhao'              //  compile引用时的第1部分groupId
+    artifactId = 'IteratorPlugin'       //  compile引用时的第2部分项目名
+    publishVersion = '1.0.0'            //  compile引用时的第3部分版本号
+    desc = 'This is a Iterator library '
+    website = 'https://bintray.com/liukun722914/IteratorPlugin'
+//        website = 'https://github.com/liuhao722/CRDemoList'
 }

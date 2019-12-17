@@ -1,4 +1,0 @@
-#Thu Apr 04 17:41:12 CST 2019
-base.0=/Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

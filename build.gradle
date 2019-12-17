@@ -7,8 +7,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
-        classpath 'com.novoda:bintray-release:+'
+        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.novoda:bintray-release:0.9.1'
     }
 }
 
@@ -17,15 +17,6 @@ allprojects {
         google()
         maven { url "https://jitpack.io" }
         jcenter()
-    }
-    //  加上这些  如果你开源库中有中文注释在moudel的build.gradle加入格式
-    tasks.withType(Javadoc) {
-        options{ encoding "UTF-8"
-            charSet 'UTF-8'
-            links "http://docs.oracle.com/javase/7/docs/api"
-        }
-        options.addStringOption('Xdoclint:none', '-quiet')
-        options.addStringOption('encoding', 'UTF-8')
     }
 }
 

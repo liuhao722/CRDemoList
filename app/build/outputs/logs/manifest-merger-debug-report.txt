@@ -4,25 +4,25 @@ ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
-MERGED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.databinding:adapters:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/ac82af8a07713f8b0244b39d3815c5ce/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.databinding:library:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/4211b7f36ecc422e3e0ebe0cca3ea35d/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:design:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ab213d63f5e4e68ad564a399cee62fdd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/0c3b2e72264b83a284e4b0fd0a561f1f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/9cfedcde84b1e5ee1edadfdbdf904c77/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1fbd6722d99ae6aa6315b8e8996a3e09/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ba6520e95bae83180917dd6c74e9f584/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/7791996abf3353aee37a7d5c4f4214ab/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d00c24a8c4bb411a5df29aadb656c291/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/81254ea3c442fb59b8ebb967e3f4a151/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/0582e5efec724d3edd5669ca5a4c4cae/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/64ea6f5a0fa04b2577393c0db693f116/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d23e948379166c9b431bc01953ce7bf5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/efb6ae9c5f31c9996ddacb6a505910c1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5842bd81d90f0ad67b64256bd76f0f11/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e46bfd29e9120a0a8d88f014f27a55fa/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/32ff14d25febfbc941397f7f1bb4d359/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/cec50245ca3dc76a0bd02bbc7ba0d240/AndroidManifest.xml:17:1-22:12
+MERGED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.databinding:adapters:3.5.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/e4b6799c5d88bdada3b4a69cae4f9642/adapters-3.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.5.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/a6f389ba6368454acbfc57d5d5d49846/library-3.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/194eb901e32156caf188e195388ba5d1/design-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/0012cdd069e6cb0bf5304d5863a175d3/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/82059c214e03d7f4ef8d7dab2a3425ec/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/1c8f2cfde8a8dce9b314936cfe19876c/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/e2285a9741801136cdd3d5f7d7f86f3a/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/9c95b09b9f491485082b590e6bfc2565/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/3a848be181971a5acb27cbc3c0b5b8b8/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/1707f4995faa164b4c4279172eadbeb4/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/88efa01818e48dcdfb40a1940c3369ce/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/f6998f3e345ef06fefbe5edb00c9847b/transition-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/35a9267601300783133062e6e25e14f7/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/f16c2f119dd2cfb6c3267acf4ed3987b/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/9e0d79a3bc69accb7e76991060bffbd3/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/932bbd8e68eadc0f7056effcee6b2fd2/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/aeecda75f3be7e1bb69c1ac272dbde3e/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/a82e1483a5c69e6bd5b7e7e227957dd3/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml:2:1-22:12
@@ -74,44 +74,44 @@ uses-sdk
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
-MERGED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.databinding:adapters:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/ac82af8a07713f8b0244b39d3815c5ce/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:adapters:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/ac82af8a07713f8b0244b39d3815c5ce/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:library:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/4211b7f36ecc422e3e0ebe0cca3ea35d/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:library:3.2.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/4211b7f36ecc422e3e0ebe0cca3ea35d/AndroidManifest.xml:22:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ab213d63f5e4e68ad564a399cee62fdd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ab213d63f5e4e68ad564a399cee62fdd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/0c3b2e72264b83a284e4b0fd0a561f1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/0c3b2e72264b83a284e4b0fd0a561f1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/9cfedcde84b1e5ee1edadfdbdf904c77/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/9cfedcde84b1e5ee1edadfdbdf904c77/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1fbd6722d99ae6aa6315b8e8996a3e09/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1fbd6722d99ae6aa6315b8e8996a3e09/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ba6520e95bae83180917dd6c74e9f584/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ba6520e95bae83180917dd6c74e9f584/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/7791996abf3353aee37a7d5c4f4214ab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/7791996abf3353aee37a7d5c4f4214ab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d00c24a8c4bb411a5df29aadb656c291/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d00c24a8c4bb411a5df29aadb656c291/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/81254ea3c442fb59b8ebb967e3f4a151/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/81254ea3c442fb59b8ebb967e3f4a151/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/0582e5efec724d3edd5669ca5a4c4cae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/0582e5efec724d3edd5669ca5a4c4cae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/64ea6f5a0fa04b2577393c0db693f116/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/64ea6f5a0fa04b2577393c0db693f116/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d23e948379166c9b431bc01953ce7bf5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/d23e948379166c9b431bc01953ce7bf5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/efb6ae9c5f31c9996ddacb6a505910c1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/efb6ae9c5f31c9996ddacb6a505910c1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5842bd81d90f0ad67b64256bd76f0f11/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5842bd81d90f0ad67b64256bd76f0f11/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e46bfd29e9120a0a8d88f014f27a55fa/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e46bfd29e9120a0a8d88f014f27a55fa/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/32ff14d25febfbc941397f7f1bb4d359/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/32ff14d25febfbc941397f7f1bb4d359/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/cec50245ca3dc76a0bd02bbc7ba0d240/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/qiucheng/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/cec50245ca3dc76a0bd02bbc7ba0d240/AndroidManifest.xml:20:5-44
+MERGED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.databinding:adapters:3.5.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/e4b6799c5d88bdada3b4a69cae4f9642/adapters-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.5.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/e4b6799c5d88bdada3b4a69cae4f9642/adapters-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.5.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/a6f389ba6368454acbfc57d5d5d49846/library-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.5.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/a6f389ba6368454acbfc57d5d5d49846/library-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/194eb901e32156caf188e195388ba5d1/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/194eb901e32156caf188e195388ba5d1/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/0012cdd069e6cb0bf5304d5863a175d3/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/0012cdd069e6cb0bf5304d5863a175d3/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/82059c214e03d7f4ef8d7dab2a3425ec/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/82059c214e03d7f4ef8d7dab2a3425ec/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/1c8f2cfde8a8dce9b314936cfe19876c/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/1c8f2cfde8a8dce9b314936cfe19876c/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/e2285a9741801136cdd3d5f7d7f86f3a/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/e2285a9741801136cdd3d5f7d7f86f3a/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/9c95b09b9f491485082b590e6bfc2565/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/9c95b09b9f491485082b590e6bfc2565/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/3a848be181971a5acb27cbc3c0b5b8b8/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/3a848be181971a5acb27cbc3c0b5b8b8/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/1707f4995faa164b4c4279172eadbeb4/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/1707f4995faa164b4c4279172eadbeb4/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/88efa01818e48dcdfb40a1940c3369ce/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/88efa01818e48dcdfb40a1940c3369ce/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/f6998f3e345ef06fefbe5edb00c9847b/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/f6998f3e345ef06fefbe5edb00c9847b/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/35a9267601300783133062e6e25e14f7/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/35a9267601300783133062e6e25e14f7/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/f16c2f119dd2cfb6c3267acf4ed3987b/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/f16c2f119dd2cfb6c3267acf4ed3987b/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/9e0d79a3bc69accb7e76991060bffbd3/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/9e0d79a3bc69accb7e76991060bffbd3/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/932bbd8e68eadc0f7056effcee6b2fd2/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/932bbd8e68eadc0f7056effcee6b2fd2/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/aeecda75f3be7e1bb69c1ac272dbde3e/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/aeecda75f3be7e1bb69c1ac272dbde3e/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/a82e1483a5c69e6bd5b7e7e227957dd3/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/qiucheng/.gradle/caches/transforms-2/files-2.1/a82e1483a5c69e6bd5b7e7e227957dd3/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
 INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -123,6 +123,6 @@ INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/ma
 		ADDED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-75
+ADDED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:22-72
+		ADDED from [:module_common] /Users/qiucheng/Documents/hao/workspace/test/CRDemoList/module_common/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-72
